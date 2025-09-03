@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Позиціонування</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header class="header">Sticky header (position: sticky; top: 0) — прилипає при скролі</header>
+  <main>
+    <h1>Типи позиціонування</h1>
+
+    <div class="panel">
+      <span class="s">static</span>
+      <span class="r">relative (зсунуто на 20px/10px)</span>
+      <span class="a">absolute (в межах сірої панелі)</span>
+    </div>
+
+    <p class="note"><b>Різниця fixed vs sticky:</b> <i>fixed</i> завжди прикріплений до вікна (viewport) й не рухається
+      зі сторінкою;
+      <i>sticky</i> поводиться як звичайний елемент, поки не «докотиться» до вказаного порогу (<code>top</code>), після
+      чого прилипає.
+    </p>
+
+    <div class="spacer">Прокрутіть сторінку вниз…</div>
+  </main>
+
+  <button class="f">Fixed кнопка</button>
+</body>
+
+</html>
