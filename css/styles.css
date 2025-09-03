@@ -61,13 +61,13 @@ body {
   border: 2px solid #222;
   padding: 12px;
   margin-bottom: 14px;
-  background: #f5f7fb
+  background: #f5f7fb;
 }
 
 .inline-demo {
   border: 1px dashed #888;
   background: #fff3cd;
-  padding: 4px
+  padding: 4px;
 }
 
 .inline-demo span {
@@ -100,7 +100,7 @@ code {
 
 h1 {
   font-size: 28px;
-  margin-bottom: 12px
+  margin-bottom: 12px;
 }
 
 p {
@@ -114,20 +114,20 @@ p {
 .row {
   display: flex;
   gap: 12px;
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 
 .b {
   background: #e7f1ff;
   border: 2px solid #0b62c7;
-  padding: 12px
+  padding: 12px;
 }
 
 .i {
   display: inline;
   background: #ffe8cc;
   border: 1px solid #e8590c;
-  padding: 6px
+  padding: 6px;
 }
 
 .fl {
@@ -135,12 +135,12 @@ p {
   gap: 8px;
   background: #e6fcf5;
   border: 1px solid #0ca678;
-  padding: 8px
+  padding: 8px;
 }
 
 .fl>div {
   background: #c3fae8;
-  padding: 8px
+  padding: 8px;
 }
 
 .bx {
@@ -148,15 +148,15 @@ p {
   padding: 20px;
   border: 4px solid #333;
   background: #f8f9fa;
-  margin-right: 12px
+  margin-right: 12px;
 }
 
 .content {
-  box-sizing: content-box
+  box-sizing: content-box;
 }
 
 .border {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 /*------------------float та clear----------------*/
@@ -198,29 +198,29 @@ p {
   height: 120px;
   border: 2px solid #343a40;
   padding: 10px;
-  background: #f8f9fa
+  background: #f8f9fa;
 }
 
 .auto {
-  overflow: auto
+  overflow: auto;
 }
 
 .hidden {
-  overflow: hidden
+  overflow: hidden;
 }
 
 .scroll {
-  overflow: scroll
+  overflow: scroll;
 }
 
 .clip {
-  overflow: clip
+  overflow: clip;
 }
 
 /*-----------------positioning----------------*/
 
 :root {
-  --h: 80px
+  --h: 80px;
 }
 
 .header {
@@ -233,7 +233,7 @@ p {
   padding: 0 16px;
   background: #0b62c7;
   color: #fff;
-  z-index: 10
+  z-index: 10;
 }
 
 main {
@@ -245,7 +245,7 @@ main {
   border: 2px solid #333;
   height: 220px;
   margin-bottom: 24px;
-  background: #f8f9fa
+  background: #f8f9fa;
 }
 
 .s {
@@ -253,7 +253,7 @@ main {
   background: #e9ecef;
   padding: 6px;
   margin: 6px;
-  display: inline-block
+  display: inline-block;
 }
 
 .r {
@@ -262,7 +262,7 @@ main {
   top: 10px;
   background: #ffd8a8;
   padding: 6px;
-  display: inline-block
+  display: inline-block;
 }
 
 .a {
@@ -270,7 +270,7 @@ main {
   right: 10px;
   bottom: 10px;
   background: #d0ebff;
-  padding: 6px
+  padding: 6px;
 }
 
 .f {
@@ -280,14 +280,14 @@ main {
   background: #212529;
   color: #fff;
   padding: 10px 14px;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .spacer {
-  height: 1200px
+  height: 1200px;
 }
 
 .note {
   font-size: 14px;
-  color: #555
+  color: #555;
 }
