@@ -55,7 +55,6 @@ body {
   text-align: center;
 }
 
-
 /*--------------------blocks-inline-----------------*/
 
 .box {
@@ -112,7 +111,6 @@ p {
 
 /*------------------display та box-sizing----------------*/
 
-
 .row {
   display: flex;
   gap: 12px;
@@ -159,4 +157,31 @@ p {
 
 .border {
   box-sizing: border-box
+}
+
+/*------------------float та clear----------------*/
+
+.img {
+  float: left;
+  width: 140px;
+  height: 100px;
+  background: #d0ebff;
+  border: 2px solid #1c7ed6;
+  margin: 0 12px 8px 0;
+}
+
+.box {
+  float: right;
+  width: 120px;
+  height: 100px;
+  background: #ffe3e3;
+  border: 2px solid #c92a2a;
+  margin: 0 0 8px 12px;
+}
+
+.clear {
+  clear: both;
+  border-top: 2px dashed #888;
+  margin-top: 12px;
+  padding-top: 8px;
 }
